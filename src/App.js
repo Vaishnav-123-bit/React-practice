@@ -1,15 +1,18 @@
 
 import './App.css';
 import Accoridan from './components/accordian';
+import LoadmoreData from './components/load-more-data';
 import RandomColor from './components/random-color';
 import StarRating from './components/star-rating';
 
 function App() {
   return (
     <div className='App'>
-      <Accoridan/>
+      {/* <Accoridan/>
       <RandomColor/>
-      <StarRating noOfStars={10}/>
+      <StarRating noOfStars={10}/> */}
+
+      <LoadmoreData/>
     </div>
   )
 }
